@@ -1,0 +1,259 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+
+}
+
+.q1 {
+    width: 4.25rem;
+    height: 43.5rem;
+    display: flex;
+    position: fixed;
+}
+
+.head_1 {
+    width: 4.25rem;
+    height: 43.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 1.75rem;
+
+}
+
+.head_1 .p1 {
+    color: #000;
+    font-family: Roboto;
+    font-size: 0.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.head_1 .h {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: transparent;
+    border: none;
+}
+
+.hq {
+    padding-top: 1rem;
+}
+
+.head_1 .h:hover {
+    cursor: pointer;
+}
+
+/* header section-2 */
+
+.q2 {
+    width: 100%;
+    height: 4.13rem;
+    background-color: #FFF;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.he_1 {
+    margin-right: 8rem;
+}
+
+.he_2,
+.coll {
+    display: flex;
+}
+
+.inp input {
+    width: 36.25rem;
+    height: 2.375rem;
+    padding-left: 5px;
+    font-size: 1.35rem;
+    border: 1px solid #E1E1E1;
+    background: #FFF;
+}
+
+.sound .s1 {
+    position: relative;
+    margin-left: 8px;
+
+}
+
+.s1,
+.s2:hover {
+    cursor: pointer;
+}
+
+.sound .s2 {
+    position: absolute;
+    align-items: center;
+    top: 1.3rem;
+    left: 67.6rem;
+}
+
+
+.coll {
+    gap: 1.5rem;
+    margin-right: -4rem;
+}
+
+.n1,
+.n2,
+.n3,
+.he_1,
+.n4:hover {
+    cursor: pointer;
+}
+
+.coll .n4 {
+    margin-left: 0.5rem;
+}
+
+
+/* main section-1 */
+
+.has {
+    background: #E2E2E2;
+}
+
+main {
+    position: absolute;
+    top: 4.13rem;
+    left: 4.25rem;
+    width: 90.75rem;
+    height: 39rem;
+    background-color: #63bd84;
+    background-color: #EEE;
+}
+
+
+
+
+.m1_1 {
+    width: 90.75rem;
+    height: 2.88rem;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 1.19rem;
+    padding-top: 0.44rem;
+    padding-bottom: 0.44rem;
+    padding-left: 0.38rem;
+
+}
+
+.hw1,
+.hw2,
+.hw3,
+.hw4,
+.hw5,
+.hw6 {
+    width: 3.3125rem;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: darkcyan;
+    padding: 1.3rem;
+    font-family: Roboto;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border-top-left-radius: 2.25rem;
+    border-top-right-radius: 2.25rem;
+    border-bottom-left-radius: 2.25rem;
+    border-bottom-right-radius: 2.25rem;
+    border: 1px solid #A7A7A7;
+    background: #EEE;
+    padding: 0.5rem 0.94rem 0.5rem 1rem;
+
+}
+
+.hw1 {
+    background-color: black;
+    color: #FFF;
+    border: none;
+}
+
+.hw1,
+.hw2,
+.hw3,
+.hw4,
+.hw5,
+.hw6:hover {
+    cursor: pointer;
+}
+
+/* 2 */
+
+
+.m1_2 {
+    margin: 1.7rem 1.56rem 2.63rem 3rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4375rem;
+}
+
+.d1 {
+    display: flex;
+    align-items: flex-start;
+    gap: 1.5rem;
+    margin: 0.2rem;
+}
+
+.i img {
+    width: 16rem;
+    height: 9rem;
+}
+
+.tex {
+    margin-top: 0.44rem;
+    display: flex;
+    align-items: self-start;
+    justify-content: space-around;
+}
+
+.l2 {
+    margin-left: 0.5rem;
+}
+
+.l2_1 {
+    color: #000;
+    font-family: Roboto;
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.l2_2 {
+    color: #484848;
+    font-family: Roboto;
+    font-size: 0.5rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.l2_3 {
+    display: flex;
+    align-items: self-start;
+    gap: 0.5rem;
+    color: #000;
+    font-family: Roboto;
+    font-size: 0.375rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}

@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.con {
+  width: 549px;
+  height: 215px;
+  background-color: #dbfffb;
+}
+
+.box1 .box1_1 img {
+  width: 153px;
+  height: 154px;
+}
+
+.box1 {
+  padding: 15px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.p1 {
+  font-size: 20px;
+  padding: 20px;
+  display: flex;
+  line-height: 20px;
+}
+
+.p2 {
+  font-size: 19px;
+  padding: 10px 30px;
+}
+
+.p3 {
+  font-size: 19px;
+  padding: 0px 30px;
+}
+
+.box2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+}
+
+.box2 span {
+  text-transform: lowercase;
+  font-weight: bolder;
+}
